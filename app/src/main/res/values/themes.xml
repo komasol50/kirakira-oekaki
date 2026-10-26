@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 実際の配色は Compose 側 Theme.kt が担う。土台は装飾なしの暗いフルスクリーンテーマ。 -->
+    <style name="Theme.Kirakira" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/night_bg</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
